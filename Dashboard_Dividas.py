@@ -21,8 +21,8 @@ with col02:
 
 st.divider()
 
-# df = pd.read_excel("Livro1.xlsm", sheet_name=None)
-df = pd.read_excel("Dívidas Iguá_v2.xlsm", sheet_name=None)
+df = pd.read_excel("Livro1.xlsm", sheet_name=None)
+# df = pd.read_excel("Dívidas Iguá_v2.xlsm", sheet_name=None)
 
 df_resumo = df['Resumo']
 df_resumo = df_resumo.iloc[4:, 1:17]
