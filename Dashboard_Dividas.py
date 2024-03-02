@@ -21,7 +21,7 @@ with col02:
 
 st.divider()
 
-df = pd.read_excel("Livro2.xlsx", sheet_name=None)
+df = pd.read_excel("Livrogithub.xlsx", sheet_name=None)
 # df = pd.read_excel("Dívidas Iguá_v2.xlsm", sheet_name=None)
 
 df_resumo = df['Resumo']
