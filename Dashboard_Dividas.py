@@ -24,7 +24,7 @@ st.divider()
 df = pd.read_excel("Livrogithub.xlsx", sheet_name=None)
 # df = pd.read_excel("Dívidas Iguá_v2.xlsm", sheet_name=None)
 
-df_resumo = df['Resumo']
+df_resumo = df['Folha1']
 df_resumo = df_resumo.iloc[4:, 1:17]
 novos_nomes = ['#','Empresa', 'Banco', 'Modalidade', 'Finalidade', 'Nº Contrato', 'Valor Contratado', 'Valor a Desembolsar',
                'Valor Atual', 'Data Inicial', 'Vencimento', 'Custo', 'Prazo Médio (Anos)', 'Taxa Nominal', 'C/C', 'Monitor']
